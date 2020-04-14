@@ -31,12 +31,7 @@ pub union Transmute<T: Copy, U: Copy> {
     pub to: U,
 }
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn compile_tests() {
-        let t = trybuild::TestCases::new();
-        t.compile_fail("compile-tests/fail/*.rs");
-        t.pass("compile-tests/pass/*.rs");
-    }
-}
+#[macro_use]
+extern crate doc_comment;
+
+doctest!("../README.md", readme);
