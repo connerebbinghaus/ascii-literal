@@ -1,0 +1,18 @@
+[package]
+name = "ascii-literal"
+version = "0.1.0"
+authors = ["Conner Ebbinghaus <connerebbinghaus@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro-hack = "0.5"
+ascii-literal-impl={path="impl"}
+ascii = "1.0"
+
+[dev-dependencies]
+trybuild="1.0"
+
+[workspace]
+members = [".", "impl"]
