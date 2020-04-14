@@ -1,9 +1,11 @@
 [package]
 name = "ascii-literal"
 version = "0.1.0"
+description="Compile time checked ASCII strings."
 authors = ["Conner Ebbinghaus <connerebbinghaus@gmail.com>"]
 edition = "2018"
 license = "MIT"
+repository="https://github.com/connerebbinghaus/ascii-literal"
 
 [dependencies]
 proc-macro-hack = "0.5"
