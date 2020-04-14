@@ -14,7 +14,7 @@ ascii = "1.0"
 doc-comment = "0.3"
 
 [dev-dependencies]
-compiletest_rs = "*"
+compiletest_rs = "0.5"
 
 [workspace]
 members = [".", "impl"]
