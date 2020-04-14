@@ -7,7 +7,7 @@ license = "MIT"
 
 [dependencies]
 proc-macro-hack = "0.5"
-ascii-literal-impl={path="impl"}
+ascii-literal-impl={version = "0.1", path="impl"}
 ascii = "1.0"
 doc-comment = "0.3"
 
