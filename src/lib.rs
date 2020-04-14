@@ -1,9 +1,7 @@
-//! Proc-macro for getting ASCII strings as constants.
+//! A proc-macro to make compile-time checked AsciiStrs.
 //! 
 //! Provides the macro [`ascii_literal`], which const-evaluates to an [`AsciiStr`](ascii::AsciiStr),
 //! checking for valid ASCII at compile time.
-//! 
-//! Requires nightly at this time, 
 
 #![no_std]
 
