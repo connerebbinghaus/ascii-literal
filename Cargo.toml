@@ -12,7 +12,7 @@ ascii = "1.0"
 doc-comment = "0.3"
 
 [dev-dependencies]
-trybuild="1.0"
+compiletest_rs = "*"
 
 [workspace]
 members = [".", "impl"]

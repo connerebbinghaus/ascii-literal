@@ -1,5 +1,0 @@
-error: String is not valid ascii!
- --> $DIR/not_ascii.rs:1:63
-  |
-1 | const ASCII: &ascii::AsciiStr = ascii_literal::ascii_literal!("Ø");
-  |                                                               ^^^
