@@ -11,6 +11,7 @@ println!("{}", MESSAGE); // Prints "Hello in ASCII!"
 
 This, however, will give a compile time error.
 ```rust,compile_fail
+use ascii_literal::ascii_literal;
 // This doesn't compile!
-const NOT_ASCII: &ascii::AsciiStr = ascii_literal::ascii_literal!("Boom! 💥");
+const NOT_ASCII: &ascii::AsciiStr = ascii_literal!("Boom! 💥");
 ```
