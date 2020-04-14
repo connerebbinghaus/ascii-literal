@@ -14,6 +14,7 @@ fn run_mode(mode: &'static str) {
 }
 
 #[test]
-fn compile_test() {
+fn test_runner() {
     run_mode("compile-fail");
+    run_mode("run-pass");
 }
