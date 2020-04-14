@@ -1,0 +1,5 @@
+error: String is not valid ascii!
+ --> $DIR/not_all_ascii.rs:1:63
+  |
+1 | const ASCII: &ascii::AsciiStr = ascii_literal::ascii_literal!("This is not ASCII! 😢");
+  |                                                               ^^^^^^^^^^^^^^^^^^^^^^^
